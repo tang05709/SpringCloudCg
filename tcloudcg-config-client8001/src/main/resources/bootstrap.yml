@@ -19,7 +19,7 @@ spring:
       label: master #分支名称
       name: tcloudcg #配置文件名称
       profile: dev #读取后缀名称
-      uri: http://localhost:9001 #配置中心地址
+      uri: http://127.0.0.1:9001 #配置中心地址
 
 management:
   endpoints:

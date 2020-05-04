@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/config")
 @RefreshScope
 public class ConfigClientController {
-    @Value("${config.info}")
+    @Value("${tcloudcg.minfo}")
     private String configInfo;
 
     @GetMapping("/configInfo")
