@@ -1,2 +1,3 @@
 tcloudcg:
-  minfo: "master, dev,version=1"
+  mname: "tcloudcgdev"
+  minfo: "master,dev,version=1"

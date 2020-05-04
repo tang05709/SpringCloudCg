@@ -11,12 +11,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
     @Value("${tcloudcg.minfo}")
-    private String configInfo;
+    private String minfo;
+    @Value("${tcloudcg.mname}")
+    private String mname;
 
-    @GetMapping("/configInfo")
-    public String getConfigInfo()
+    @GetMapping("/minfo")
+    public String getMinfo()
     {
-        return configInfo;
+        return minfo;
+    }
+
+    @GetMapping("/mname")
+    public String getMname()
+    {
+        return mname;
     }
 
 }

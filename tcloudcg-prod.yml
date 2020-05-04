@@ -1,2 +1,3 @@
 tcloudcg:
+  mname: "tcloudcgprod"
   minfo: "master,prod,version=1"
