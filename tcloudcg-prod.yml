@@ -1,2 +1,2 @@
 config:
-  info: "name: springcloudconfigprod; date: 2020-5-4; auth: Donald"
+  info: "master,prod,version=1"
