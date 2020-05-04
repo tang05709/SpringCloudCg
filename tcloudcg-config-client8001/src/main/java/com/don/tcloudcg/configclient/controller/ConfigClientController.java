@@ -18,6 +18,7 @@ public class ConfigClientController {
     @GetMapping("/minfo")
     public String getMinfo()
     {
+        System.out.println(minfo.chars());
         return minfo;
     }
 
