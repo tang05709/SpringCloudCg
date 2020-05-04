@@ -1,3 +1,2 @@
-name: springcloudconfigdev
-auth: Donald
-date: 2020-5-4
+config:
+  info: "name: springcloudconfigdev; date: 2020-5-4; auth: Donald"
