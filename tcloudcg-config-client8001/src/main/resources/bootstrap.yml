@@ -1,0 +1,28 @@
+server:
+  port: 8001
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://www.eureka7001.com:7001/eureka
+  instance:
+    instance-id: payment8001
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      label: master #分支名称
+      name: tcloudcg #配置文件名称
+      profile: dev #读取后缀名称
+      uri: http://localhost:9001 #配置中心地址
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

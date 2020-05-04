@@ -12,6 +12,7 @@
     <modules>
         <module>tcloudcg-eureka-server7001</module>
         <module>tcloudcg-config-server9001</module>
+        <module>tcloudcg-config-client8001</module>
     </modules>
 
     <properties>
