@@ -10,3 +10,5 @@
 
 项目说明
 - tcloudgw-eureka-server7001 Eureka注册中心
+- tcloudgw-config-client8001 Config客户端
+- tcloudgw-config-server9001 Config服务端
