@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 eureka:
   client:
@@ -8,7 +8,7 @@ eureka:
     service-url:
       defaultZone: http://www.eureka7001.com:7001/eureka
   instance:
-    instance-id: payment8001
+    instance-id: payment8002
     prefer-ip-address: true
 
 spring:
